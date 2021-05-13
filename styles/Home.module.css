@@ -7,9 +7,13 @@
   align-items: center;
   height: 100vh;
 }
+.ola{
+  position:fixed;
+  height:100px;
+}
 
 .main {
-  padding: 5rem 0;
+ 
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -43,11 +47,29 @@
 .title a:active {
   text-decoration: underline;
 }
+.h01 {
+  width: 770px;
+  align-self: left;
+  vertical-align: center;
+}
+.lefty {
+  padding-right: 0.25em;
+}
+.h03 {
+  text-align: right;
+  vertical-align: center;
+  background:coral;
+  color: black;
+  height: 24px;
+}
 
 .title {
+  text-align: left;
   margin: 0;
+  text-align: left;
+ 
   padding-top: -50px;
-  line-height: 1.15;
+  line-height:0.75;
   font-size: 6rem;
 }
 

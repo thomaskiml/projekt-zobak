@@ -13,9 +13,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+      <div className={styles.h01}>
           <h2>Projekt bude online za</h2>
         <h1 id="demo" className={styles.title}>
         </h1>
+        <h3 className={styles.h03}><p className={styles.lefty}>•••</p></h3>
+        </div>
       </main>
 
     </div>
