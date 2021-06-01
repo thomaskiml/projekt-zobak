@@ -1,0 +1,170 @@
+.container {
+  min-height: 100vh;
+  background-color:#FEE8A2;
+  flex-direction: column;
+  justify-content: jjcenter;
+  align-items: center;
+  height: 100vh;
+}
+.lio {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 100%;
+  text-align: centers;
+  align-items: center;
+  padding: 2em;
+}
+.lio a {
+  color : orange;
+} 
+.lio a:hover {
+  color: #e64b37;
+}
+.apdo {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.apd {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.cursive {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.lololo{
+  text-align: right;
+  font-size: 1rem;
+}
+.fif {
+  width: 50%;
+}
+.desco {
+  font-size: 1.3em;
+  padding-right: 2em;
+  text-align: justify;
+}
+.tabl {
+  width: 100%;
+}
+.popop {
+  padding-top: 1em;
+}
+.lowe {
+  font-size: 1.5rem;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 1.5em;
+}
+.lefty {
+  width: auto;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 1.5em;
+}
+.line1 {
+  max-width: 100%;
+  width: 300vh;
+  height: 48px;
+  background-color: #facc43;
+}
+.line2 {
+  max-width: 100%;
+  width: 300vh;
+  height: 48px;
+  background-color: #e64b37;
+}
+.name {
+  font-size: 1.5rem;
+  text-align: right;
+  vertical-align: bottom;
+  padding: 0.8em;
+}
+.name a:hover {
+  color: #e64b37;
+}
+.line3 {
+  max-width: 100%;
+  width: 300vh;
+  height: 48px;
+  background-color: #c7312d;
+}
+.liko {
+  padding-left: 2em;
+}
+.line4 {
+  max-width: 100%;
+  width: 300vh;
+  height: 48px;
+  background-color: #9a2b40;
+}
+.line5 {
+  max-width: 100%;
+  width: 300vh;
+  height: 48px;
+  background-color: #712647;
+}
+.ten {
+  padding: 2em;
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tito {
+  padding-top: 0.3em;
+  transition: all 0.1s linear;
+  align-content: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 6rem;
+}
+.tito:hover {
+  color: orange;
+}
+
+.h01 {
+  padding: 1.5em;
+  padding-top: 12em;
+  width: 100%;
+  align-self: left;
+  vertical-align: center;
+}
+.lefty {
+  padding-right: 0.25em;
+}
+.h03 {
+  text-align: right;
+  vertical-align: center;
+  background: coral;
+  color: black;
+  height: 24px;
+}
+
+.title {
+  text-align: left;
+  margin: 0;
+  text-align: left;
+  padding-top: 1em;
+
+  padding-top: -50px;
+  line-height: 1em;
+  font-size: 8rem;
+}
+.hr {
+  border: 1px solid #9a2b40;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
