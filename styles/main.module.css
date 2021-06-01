@@ -20,7 +20,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   width: 100%;
-  text-align: centers;
+  text-align: center;
   align-items: center;
   padding: 2em;
 }
@@ -33,6 +33,7 @@
 .apdo {
   padding-top: 2em;
   padding-bottom: 2em;
+  max-width: 100%;
 }
 .apd {
   padding-top: 1em;
