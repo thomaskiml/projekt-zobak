@@ -6,6 +6,16 @@
   align-items: center;
   height: 100vh;
 }
+.verta{
+  padding-right: 1em;
+}
+.frm{
+  font-size: 1.5rem;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0.8em;
+
+}
 .lio {
   font-size: 1.2rem;
   font-weight: 500;

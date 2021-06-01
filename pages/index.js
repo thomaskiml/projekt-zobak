@@ -14,6 +14,16 @@ export default function Home() {
       <main className={styles.main}>
         <table className={styles.tabl}>
           <tr>
+            <td className={styles.frm}>
+              <a className={styles.verta} href="https://www.dropbox.com/s/sj20ql3vynykvv5/zobak.pdf?dl=0">.pdf</a>{" "}
+           
+              <a  className={styles.verta} href="https://www.dropbox.com/scl/fi/9pppbzywwe29xftjfhbro/zobak.docx?dl=0&rlkey=sdln6krf6f1uqsk6to6o2hfqa">
+                .docx
+              </a>
+              <a  className={styles.verta} href="https://www.dropbox.com/s/2ey07qtz5b2i60m/zobak.pages?dl=0">
+                .pages
+              </a>
+            </td>
             <td className={styles.name}>
               <a href="https://github.com/thomaskiml" className={styles.name}>
                 Thomas Alexander Kiml
@@ -310,9 +320,10 @@ export default function Home() {
           </tr>
         </table>
         <footer>
-        
-           <div className={styles.lio}>created by - <a href="https://github.com/thomaskiml">@thomaskiml</a></div>
-           </footer>
+          <div className={styles.lio}>
+            created by - <a href="https://github.com/thomaskiml">@thomaskiml</a>
+          </div>
+        </footer>
       </main>
     </div>
   );
